@@ -1,0 +1,169 @@
+/* TYPOGRAPHY */
+@import url('https://rsms.me/inter/inter.css');
+
+html 
+{ 
+	font-family: 'Inter', sans-serif; 
+}
+
+
+@supports (font-variation-settings: normal) 
+{
+	html 
+	{ 
+		font-family: 'Inter var', sans-serif; 
+	}
+}
+
+h1, h2, h3, h4, h4, h6, p 
+{
+	font-family: 'Inter', 'Inter var';
+	font-style: normal;
+}
+
+h1
+{
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 92px;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 64px;
+}
+
+h3 
+{
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+h4
+{
+	font-size: 24px;
+	line-height: 36px;
+}
+
+h5 
+{
+	font-size: 18px;
+	line-height: 28px;
+}
+
+h6
+{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+p 
+{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.snt-container .navbar a
+{
+	color:rgba(255, 255, 255, 1) !important;
+	font-family: 'Inter', 'Inter var';
+	font-style: normal;
+}
+
+.snt-container .row, .snt-container .col
+{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.snt-header 
+{
+	width: 100%;
+	height: 668px;
+	background: url('../imgs/img_placeholder_lg.png');
+	background-color:rgba(0, 0, 0, 0.5);
+	background-blend-mode: overlay;
+}
+
+.snt-header h1
+{
+	margin-top: 240px;
+}
+
+.snt-marketers, .snt-venus, .snt-artists, .snt-publishers
+{
+	width: 100%;
+	height: 720px;
+	color: white;
+}
+.snt-marketers
+{
+	background: #EC008C;
+}
+
+.snt-venus
+{
+	background: #215CAA;
+}
+
+.snt-artists 
+{
+	background: #215CAA;
+}
+
+.snt-publishers
+{
+	background: black;
+}
+
+.vertical-center 
+{
+  min-height: 100% !important;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.snt-title-1 h2
+{
+	margin: 130px 0 30px 0;
+}
+
+.snt-title-2 h2
+{
+	margin: 130px 0 130px 0;
+}
+
+.snt-title-2
+{
+	background-color: black;
+	color: white;
+}
+
+.snt-boxes 
+{
+	background: url('../imgs/img_placeholder_lg.png');
+	width: 100%;
+	height: 820px;
+	color: white;
+}
+
+.snt-card-box 
+{
+	padding: 50px 20px 50px 20px;
+	background-color: #EC008C;
+	margin-bottom: 160px;
+}
+
+.snt-achivments {
+	padding: 70px 0 70px 0;
+}
+
+.snt-achivments img 
+{
+	margin-bottom: 30px;
+}
