@@ -3,7 +3,7 @@
 </div>
 
 <div class="row snt-achivments">
-  <div class="col-4 offset-4">
+  <div class="col-md-4 offset-md-4">
     <img src="<?php echo get_template_directory_uri().'/imgs/esifeu.png'; ?>" class="mx-auto d-block" alt="">
     <p class="text-center">Krajnji primatelj financijskog instrumenta sufinanciranog iz Europskog fonda za regionalni razvoj u sklopu Operativnog programa „Konkurentnost i kohezija” i "ESIF financijski instrumenti".</p>
   </div>
@@ -19,8 +19,12 @@
         <img src="<?php echo get_template_directory_uri().'/imgs/equinox_horizontal_logo_black_footer.png'; ?>" alt="">
         <p>Copyright © 2019 EQUINOX. <br> All rights reserved. </p>
       </div>
-      <div class="col-6"></div>
-      <div class="col-1"></div>
+      <div class="col-5"></div>
+      <div class="snt-socials col-2">
+        <img src="<?php echo get_template_directory_uri().'/imgs/simple-line-icons_social-facebook.png'; ?>" alt="">
+        <img src="<?php echo get_template_directory_uri().'/imgs/simple-line-icons_social-twitter.png'; ?>" alt="">
+        <img src="<?php echo get_template_directory_uri().'/imgs/simple-line-icons_social-youtube.png'; ?>" alt="">
+      </div>
     </div>
   </div>
 </div>

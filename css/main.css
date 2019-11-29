@@ -73,6 +73,11 @@ p
 	font-style: normal;
 }
 
+a.nav-link:hover 
+{
+	color: #EC008C !important;
+}
+
 .snt-container .row, .snt-container .col
 {
 	padding-left: 0 !important;
@@ -82,11 +87,21 @@ p
 .snt-header 
 {
 	width: 100%;
-	height: 668px;
+	min-height: 668px;
 	background: url('../imgs/img_placeholder_lg.jpg') no-repeat center;
 	background-size: cover;
 	background-color:rgba(0, 0, 0, 0.5);
 	background-blend-mode: overlay;
+}
+
+@media  (max-width: 768px) 
+{
+	h1
+	{
+		font-weight: 800;
+		font-size: 52px;
+		line-height: 72px;
+	}
 }
 
 .snt-header h1
@@ -197,4 +212,8 @@ p
 .snt-middle
 {
 	margin-bottom: 120px;;
+}
+
+.snt-socials img {
+	margin: 5px 15px 5px 15px;
 }

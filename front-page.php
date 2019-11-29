@@ -76,7 +76,7 @@
 
 <section class="snt-middle">
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <div class="row vertical-center">
         <div class="col-10 offset-1">
          <h3>Internet of Things</h3>
@@ -86,15 +86,15 @@
         </div>
       </div>
     </div>
-    <div class="col-6">
-      <img src="<?php echo get_template_directory_uri().'/imgs/phone-fliped.jpg'; ?>" alt="" height="500">
+    <div class="col-md-6">
+      <img src="<?php echo get_template_directory_uri().'/imgs/phone-fliped.jpg'; ?>" alt="">
     </div>
   </div>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
         <img src="<?php echo get_template_directory_uri().'/imgs/phone.jpg'; ?>" class="float-right" alt="">
     </div>
-    <div class="col-6 vertical-center">
+    <div class="col-md-6 vertical-center">
       <div class="col-10 offset-1">
         <h3>Publishing</h3>
         <p>An organiser for a speaking event for a popular writer publishes photos and videos of the author near libraries and book shops. Attached code enables interactive 3D virtual shops for promoted books. </p>
@@ -104,7 +104,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-6 vertical-center">
+    <div class="col-md-6 vertical-center">
       <div class="col-10 offset-1">
        <h3>3D modeling</h3>
         <p>A 3D artist creates a large virtual 3D sculpture and pins it at his neighbourhood park; he attaches a smart contract to it so people passing by can tip him for his art. </p>
@@ -115,8 +115,8 @@
         
       </div>
     </div>
-    <div class="col-6">
-        <img src="<?php echo get_template_directory_uri().'/imgs/img_placeholder.jpg'; ?>" alt="">
+    <div class="col-md-6">
+        <img src="<?php echo get_template_directory_uri().'/imgs/img_placeholder.jpg'; ?>" alt="" width="100%">
     </div>
   </div>
  
@@ -132,17 +132,14 @@
   <section class="snt-boxes">
     <div class="col-10">
       <div class="row">
-        <div class="snt-card-box col-5 offset-1">
+        <div class="snt-card-box col-md-5 offset-1">
           <h3> Welcome to the future of social media</h3>
-          <p>Project Equinox is a platform for social-network-style publishing of augmented reality
-interactive virtual content. <br/>
-<br/>
-It's like Pokemon Go and World of Warcraft and geocaching rolled into one AR world with crowdsourced elements, which may end up looking like The Matrix.</p>
+          <p>Project Equinox is a platform for social-network-style publishing of augmented reality interactive virtual content. <br/> <br/> It's like Pokemon Go and World of Warcraft and geocaching rolled into one AR world with crowdsourced elements, which may end up looking like The Matrix.</p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-2 offset-11">
+        <div class="col-md-2 offset-md-10">
           <img src="<?php echo get_template_directory_uri().'/imgs/equinox_icon_lg.png'; ?>" alt="">
         </div>
       </div>
