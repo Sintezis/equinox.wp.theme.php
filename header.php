@@ -41,10 +41,13 @@ style guide rules end -->
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link" href="#">HOME</a>
-      <a class="nav-item nav-link" href="#">FOR 3D ARTISTS</a>
-      <a class="nav-item nav-link" href="#">FOR MARKETERS</a>
-      <a class="nav-item nav-link" href="#">ABOUT</a>
+    <?php
+            $defaults = array(
+              'container' => '', 
+              'menu_class' => 'nav navbar-nav menu__list', 
+              'menu' => 'Header Menu',
+            );
+            wp_nav_menu($defaults); ?> 
     </div>
   </div>
 </nav>

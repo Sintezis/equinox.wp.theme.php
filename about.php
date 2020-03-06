@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php
+/*Template Name: About */
+get_header(); ?>
 
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post(); ?>
@@ -18,5 +20,14 @@
 <?php endif; ?>
 
 
+
+<div class="row snt-achivments">
+  <div class="col-4 offset-4">
+    <img src="<?php echo get_template_directory_uri().'/imgs/esifeu.png'; ?>" class="mx-auto d-block" alt="">
+    <p class="text-center">Krajnji primatelj financijskog instrumenta sufinanciranog iz Europskog fonda za regionalni razvoj u sklopu Operativnog programa „Konkurentnost i kohezija” i "ESIF financijski instrumenti".</p>
+  </div>
+</div>
+  
+</div>
 
 <?php get_footer(); ?>
